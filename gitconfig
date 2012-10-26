@@ -30,5 +30,3 @@
        added = yellow
        changed = red
        untracked = cyan
-[core]
-	excludesfile = /home/.gitignore_global
