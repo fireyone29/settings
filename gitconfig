@@ -5,6 +5,7 @@
 	sto = log @{u}.. --oneline
 	sti = log ..@{u} --oneline
 	br = branch
+	unstage = reset HEAD --
 	hist = log --pretty=format:\"%h %ad | %s%d [%an]\" --graph --date=short
 	type = cat-file -t
 	dump = cat-file -p
